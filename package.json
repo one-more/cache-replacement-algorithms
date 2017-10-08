@@ -1,0 +1,50 @@
+{
+  "name": "cache-algorithms",
+  "version": "1.0.0",
+  "description": "cache algorithms js implementation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+      "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/one-more/cache-algorithms.git"
+  },
+  "keywords": [
+    "cache",
+    "algorithms",
+    "lru",
+    "plru",
+    "pseudo-lru"
+  ],
+  "author": "one-more",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/one-more/cache-algorithms/issues"
+  },
+  "homepage": "https://github.com/one-more/cache-algorithms#readme",
+  "devDependencies": {
+    "babel-jest": "^21.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "chai": "^4.1.2",
+    "flow": "^0.2.3",
+    "flow-babel-webpack-plugin": "^1.1.0",
+    "flow-bin": "^0.55.0",
+    "jest": "^21.1.0",
+    "jest-cli": "^21.1.0"
+  },
+  "dependencies": {
+    "ramda": "^0.24.1"
+  },
+  "jest": {
+    "modulePaths": [
+      "<rootDir>/src/"
+    ]
+  }
+}
